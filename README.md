@@ -47,10 +47,10 @@ docker run --rm -it \
 
 
 
-### 新建一个项目路径并且讲切换当前路径
+### 切换当前路径至你的项目路径
 
 ```
-mkdir my_haihua_submission && cd my_haihua_submission
+cd my_haihua_submission
 ```
 
 ### 创建一个main文件
@@ -66,7 +66,7 @@ main文件需要完成的任务有:
 2. 调用你的模型, 预测结果.
 3. 将预测结果输出为 `-output` 参数所指定的文件. 结果文件格式跟初赛一致.
 
-可以参考样例中的[`main.py`](main.py)作为main文件的例子. 你可以将solution函数替换为调用你自己模型的代码.
+可以参考样例中的[`main.py`](main.py)作为main文件的例子. 你可以将random_result函数替换为调用你自己模型的代码.
 
 ### 创建Dockerfile
 
